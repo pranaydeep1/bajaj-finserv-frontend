@@ -26,7 +26,7 @@ function App() {
     formData.append('data', data);
 
     try {
-      const res = await axios.post('http://localhost:5000/bfhl', formData, {
+      const res = await axios.post('https://bajaj-finserv-yv25.onrender.com/bfhl', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
